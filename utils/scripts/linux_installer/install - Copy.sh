@@ -49,14 +49,14 @@ echo "#########################################################                 
 
 # Installation variables (Don't need to change, only for advanced users)
 
-export eqemu_server_directory="~/eqemu"
+export eqemu_server_directory=/home/eqemu
 export apt_options="-y -qq" # Set autoconfirm and silent install
 
 ################################################################
 
 if [ ! -f ./install_variables.txt ]; then
 
-	#read -n1 -r -p "Press any key to continue..." key
+	read -n1 -r -p "Press any key to continue..." key
 	
 	#::: Setting up user environment (eqemu)
 	echo "First, we need to set your passwords..."
