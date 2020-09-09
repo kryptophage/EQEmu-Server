@@ -49,7 +49,7 @@ echo "#########################################################                 
 
 # Installation variables (Don't need to change, only for advanced users)
 
-export eqemu_server_directory="~/eqemu"
+export eqemu_server_directory="/home/container"
 export apt_options="-y -qq" # Set autoconfirm and silent install
 
 ################################################################
